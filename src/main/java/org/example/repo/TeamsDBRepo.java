@@ -1,108 +1,110 @@
 package org.example.repo;
 
 import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.example.entity.Team;
 import org.example.entity.User;
-import org.example.repo.generic.UserRepo;
+import org.example.repo.generic.TeamsRepo;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-import org.apache.logging.log4j.Logger;
+public class TeamsDBRepo implements TeamsRepo {
 
-public class UserDBRepo implements UserRepo {
-
-    private static final Logger logger = LogManager.getLogger();
-
+    private final Logger logger = LogManager.getLogger();
     private final JdbcUtils dbUtils;
 
-    public UserDBRepo(Properties properties) {
-        logger.info("creating UserDBRepo");
+    public TeamsDBRepo(Properties properties) {
+        logger.info("creating TeamRepo");
         dbUtils = new JdbcUtils(properties);
     }
 
     @Override
-    public List<User> getAll() throws SQLException {
-        logger.info("getting users from DB");
+    public List<Team> getAll() throws SQLException {
+        logger.info("getting teams from DB");
         Connection connection = dbUtils.getConnection();
-        List<User> users = new ArrayList<>();
+        List<Team> teams = new ArrayList<>();
         try (PreparedStatement preparedStatement = connection.prepareStatement(
-                "select * from users")) {
+                "select * from teams")) {
             try (ResultSet resultSet = preparedStatement.executeQuery()) {
                 while (resultSet.next()) {
-                    String userName = resultSet.getString("name");
-                    String passwd = resultSet.getString("passwd");
-                    users.add(new User(userName, passwd));
+                    Integer code = resultSet.getInt("code");
+                    String name = resultSet.getString("name");
+                    teams.add(new Team(code, name));
                 }
             } catch (SQLException e) {
                 logger.error("UserDB error: " + e.toString());
             }
         }
-        return users;
+        return teams;
     }
 
     @Override
-    public void add(User obj) {
-        logger.info("adding new user");
+    public void add(Team obj) {
+        logger.info("adding new team");
         Connection connection = dbUtils.getConnection();
         List<User> users = new ArrayList<>();
         try (PreparedStatement preparedStatement = connection.prepareStatement(
-                "insert into users(name, passwd) values(?, ?)")) {
-            preparedStatement.setString(1, obj.getUserName());
-            preparedStatement.setString(2, obj.getPasswd());
+                "insert into teams(code, name) values(?, ?)")) {
+            preparedStatement.setInt(1, obj.getCode());
+            preparedStatement.setString(2, obj.getName());
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
             logger.error("UserDB prepare statement error: " + e.toString());
         }
-        logger.info("user added");
+        logger.info("team added");
     }
 
     @Override
-    public void remove(User obj) {
-        logger.info("deleting user " + obj.getUserName());
+    public void remove(Team obj) {
+        logger.info("deleting user " + obj.getCode().toString());
         Connection connection = dbUtils.getConnection();
         List<User> users = new ArrayList<>();
         try (PreparedStatement preparedStatement = connection.prepareStatement(
-                "delete from users where name = ?")) {
-            preparedStatement.setString(1, obj.getUserName());
+                "delete from teams where code = ?")) {
+            preparedStatement.setInt(1, obj.getCode());
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
             logger.error("UserDB prepare statement error: " + e.toString());
         }
-        logger.info("user deleted");
+        logger.info("team deleted");
     }
 
     @Override
-    public void modify(User obj) {
-        logger.info("updating user " + obj.getUserName());
+    public void modify(Team obj) {
+        logger.info("updating team " + obj.getCode().toString());
         Connection connection = dbUtils.getConnection();
         List<User> users = new ArrayList<>();
         try (PreparedStatement preparedStatement = connection.prepareStatement(
-                "update users set passwd=? where name=?")) {
-            preparedStatement.setString(1, obj.getPasswd());
-            preparedStatement.setString(2, obj.getUserName());
+                "update teams set name=? where code=?")) {
+            preparedStatement.setString(1, obj.getName());
+            preparedStatement.setInt(2, obj.getCode());
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
             logger.error("--UserDB prepare statement error: " + e.toString());
         }
-        logger.info("user updated");
+        logger.info("team updated");
     }
 
     @Override
-    public User search(User obj) {
-        logger.info("searching for user " + obj.getUserName());
+    public Team search(Team obj) {
+        logger.info("searching for team " + obj.getCode().toString());
         try {
-            for(User user : getAll()){
-                if(user.equals(obj)) {
-                    logger.info("--user found");
-                    return user;
+            for(Team team : getAll()){
+                if(team.equals(obj)) {
+                    logger.info("--team found");
+                    return team;
                 }
             }
         }catch (Exception e){
             logger.error("--UserDB prepare statement error: " + e.getMessage());
         }
-        logger.info("--user not found");
+        logger.info("--team not found");
         return null;
     }
 }
