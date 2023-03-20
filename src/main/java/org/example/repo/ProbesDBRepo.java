@@ -2,9 +2,10 @@ package org.example.repo;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.example.entity.Probe;
 import org.example.entity.Team;
-import org.example.entity.User;
-import org.example.repo.generic.TeamsRepo;
+import org.example.repo.JdbcUtils;
+import org.example.repo.generic.ProbesRepo;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -14,94 +15,94 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-public class TeamsDBRepo implements TeamsRepo {
+public class ProbesDBRepo implements ProbesRepo {
 
     private final Logger logger = LogManager.getLogger();
     private final JdbcUtils dbUtils;
 
-    public TeamsDBRepo(Properties properties) {
-        logger.info("creating TeamRepo");
+    public ProbesDBRepo(Properties properties){
+        logger.info("create probes repo");
         dbUtils = new JdbcUtils(properties);
     }
 
     @Override
-    public List<Team> getAll() throws SQLException {
-        logger.info("getting teams from DB");
+    public List<Probe> getAll() throws SQLException {
+        logger.info("getting probes from DB");
         Connection connection = dbUtils.getConnection();
-        List<Team> teams = new ArrayList<>();
+        List<Probe> probes = new ArrayList<>();
         try (PreparedStatement preparedStatement = connection.prepareStatement(
-                "select * from teams")) {
+                "select * from probes")) {
             try (ResultSet resultSet = preparedStatement.executeQuery()) {
                 while (resultSet.next()) {
                     Integer code = resultSet.getInt("code");
                     String name = resultSet.getString("name");
-                    teams.add(new Team(code, name));
+                    probes.add(new Probe(code, name));
                 }
             } catch (SQLException e) {
-                logger.error("TeamDB error: " + e.toString());
+                logger.error("ProbeDB error: " + e.toString());
             }
         }
-        return teams;
+        return probes;
     }
 
     @Override
-    public void add(Team obj) {
-        logger.info("adding new team");
+    public void add(Probe obj) {
+        logger.info("adding new probe");
         Connection connection = dbUtils.getConnection();
         try (PreparedStatement preparedStatement = connection.prepareStatement(
-                "insert into teams(code, name) values(?, ?)")) {
-            preparedStatement.setInt(1, obj.getCode());
+                "insert into probes(code, name) values(?, ?)")) {
+            preparedStatement.setInt(1, obj.getCod());
             preparedStatement.setString(2, obj.getName());
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
-            logger.error("TeamDB prepare statement error: " + e.toString());
+            logger.error("ProbeDB prepare statement error: " + e.toString());
         }
-        logger.info("team added");
+        logger.info("probe added");
     }
 
     @Override
-    public void remove(Team obj) {
-        logger.info("deleting user " + obj.getCode().toString());
+    public void remove(Probe obj) {
+        logger.info("deleting PROBE " + obj.getCod().toString());
         Connection connection = dbUtils.getConnection();
         try (PreparedStatement preparedStatement = connection.prepareStatement(
-                "delete from teams where code = ?")) {
-            preparedStatement.setInt(1, obj.getCode());
+                "delete from probes where code = ?")) {
+            preparedStatement.setInt(1, obj.getCod());
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
-            logger.error("TeamDB prepare statement error-: " + e.toString());
+            logger.error("ProbeDB prepare statement error-: " + e.toString());
         }
-        logger.info("team deleted");
+        logger.info("probe deleted");
     }
 
     @Override
-    public void modify(Team obj) {
-        logger.info("updating team " + obj.getCode().toString());
+    public void modify(Probe obj) {
+        logger.info("updating probe " + obj.getCod().toString());
         Connection connection = dbUtils.getConnection();
         try (PreparedStatement preparedStatement = connection.prepareStatement(
-                "update teams set name=? where code=?")) {
+                "update probes set name=? where code=?")) {
             preparedStatement.setString(1, obj.getName());
-            preparedStatement.setInt(2, obj.getCode());
+            preparedStatement.setInt(2, obj.getCod());
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
-            logger.error("--TeamDB prepare statement error: " + e.toString());
+            logger.error("--ProbeDB prepare statement error: " + e.toString());
         }
-        logger.info("team updated");
+        logger.info("probe updated");
     }
 
     @Override
-    public Team search(Team obj) {
-        logger.info("searching for team " + obj.getCode().toString());
+    public Probe search(Probe obj) {
+        logger.info("searching for probe " + obj.getCod().toString());
         try {
-            for(Team team : getAll()){
-                if(team.equals(obj)) {
-                    logger.info("--team found");
-                    return team;
+            for(Probe probe : getAll()){
+                if(probe.equals(obj)) {
+                    logger.info("--probe found");
+                    return probe;
                 }
             }
         }catch (Exception e){
-            logger.error("--UserDB prepare statement error: " + e.getMessage());
+            logger.error("--ProbeDB prepare statement error?: " + e.getMessage());
         }
-        logger.info("--team not found");
+        logger.info("--probe not found");
         return null;
     }
 }
