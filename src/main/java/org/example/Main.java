@@ -51,11 +51,11 @@ public class Main {
 //            System.out.println(e.getMessage());
 //        }
 
-        try {
-            testRegDB(props);
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
+//        try {
+//            testRegDB(props);
+//        } catch (Exception e) {
+//            System.out.println(e.getMessage());
+//        }
 
     }
 
