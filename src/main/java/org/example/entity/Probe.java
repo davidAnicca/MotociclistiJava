@@ -6,11 +6,9 @@ public class Probe {
     private Integer cod;
     private String name;
 
-
     public Probe(Integer cod, String name) {
         this.cod = cod;
         this.name = name;
-
     }
 
     public Integer getCod() {

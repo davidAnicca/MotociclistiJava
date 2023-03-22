@@ -1,3 +1,37 @@
 22 Mar 2023 12:04:16,316 DEBUG org.example.Main 22 main - test debug
 22 Mar 2023 12:04:16,322 ERROR org.example.Main 26 main - test - this is not an error!
 22 Mar 2023 12:04:16,323 ERROR org.example.Main 35 main - test - this is not an error!
+22 Mar 2023 12:41:53,386 DEBUG org.example.Main 22 main - test debug
+22 Mar 2023 12:41:53,391 ERROR org.example.Main 26 main - test - this is not an error!
+22 Mar 2023 12:41:53,395 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+22 Mar 2023 12:41:53,396 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+22 Mar 2023 12:41:53,813 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+22 Mar 2023 12:41:53,816 ERROR org.example.repo.ProbesDBRepo 133 getParticipants - ProbeDB error: java.sql.SQLException: no such column: 'team'
+22 Mar 2023 12:41:53,829 INFO  org.example.repo.ProbesDBRepo 51 add - adding new probe
+22 Mar 2023 12:41:53,849 INFO  org.example.repo.ProbesDBRepo 61 add - probe added
+22 Mar 2023 12:41:53,852 INFO  org.example.repo.ProbesDBRepo 51 add - adding new probe
+22 Mar 2023 12:41:53,872 INFO  org.example.repo.ProbesDBRepo 61 add - probe added
+22 Mar 2023 12:41:53,874 INFO  org.example.repo.ProbesDBRepo 66 remove - deleting PROBE -1
+22 Mar 2023 12:41:53,884 INFO  org.example.repo.ProbesDBRepo 75 remove - probe deleted
+22 Mar 2023 12:41:53,885 INFO  org.example.repo.ProbesDBRepo 80 modify - updating probe 53
+22 Mar 2023 12:41:53,898 INFO  org.example.repo.ProbesDBRepo 90 modify - probe updated
+22 Mar 2023 12:41:53,899 ERROR org.example.Main 35 main - test - this is not an error!
+22 Mar 2023 12:42:30,290 DEBUG org.example.Main 22 main - test debug
+22 Mar 2023 12:42:30,295 ERROR org.example.Main 26 main - test - this is not an error!
+22 Mar 2023 12:42:30,299 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+22 Mar 2023 12:42:30,300 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+22 Mar 2023 12:42:30,600 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+22 Mar 2023 12:42:30,612 INFO  org.example.repo.ProbesDBRepo 51 add - adding new probe
+22 Mar 2023 12:42:30,660 INFO  org.example.repo.ProbesDBRepo 61 add - probe added
+22 Mar 2023 12:42:30,662 INFO  org.example.repo.ProbesDBRepo 51 add - adding new probe
+22 Mar 2023 12:42:30,680 INFO  org.example.repo.ProbesDBRepo 61 add - probe added
+22 Mar 2023 12:42:30,682 INFO  org.example.repo.ProbesDBRepo 66 remove - deleting PROBE -1
+22 Mar 2023 12:42:30,693 INFO  org.example.repo.ProbesDBRepo 75 remove - probe deleted
+22 Mar 2023 12:42:30,694 INFO  org.example.repo.ProbesDBRepo 80 modify - updating probe 30
+22 Mar 2023 12:42:30,718 INFO  org.example.repo.ProbesDBRepo 90 modify - probe updated
+22 Mar 2023 12:42:30,719 ERROR org.example.Main 35 main - test - this is not an error!
+22 Mar 2023 12:47:38,354 DEBUG org.example.Main 22 main - test debug
+22 Mar 2023 12:47:38,359 ERROR org.example.Main 26 main - test - this is not an error!
+22 Mar 2023 12:47:38,365 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+22 Mar 2023 12:47:38,367 INFO  org.example.repo.ParticipantDBRepo 110 findByTeam - getting participants by team
+22 Mar 2023 12:47:38,788 ERROR org.example.Main 35 main - test - this is not an error!

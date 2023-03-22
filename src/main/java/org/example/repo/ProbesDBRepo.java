@@ -2,6 +2,7 @@ package org.example.repo;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.example.entity.Participant;
 import org.example.entity.Probe;
 import org.example.entity.Team;
 import org.example.repo.JdbcUtils;
@@ -104,5 +105,25 @@ public class ProbesDBRepo implements ProbesRepo {
         }
         logger.info("--probe not found");
         return null;
+    }
+
+    public List<Participant> getParticipants(Probe probe){
+        logger.info("getting all participants");
+        List<Participant> participantList = new ArrayList<>();
+        Connection connection = dbUtils.getConnection();
+        try (PreparedStatement preparedStatement = connection.prepareStatement(
+                "select * from participants ps " +
+                        "inner join registrations r on ps.code = r.participant_code " +
+                        "where r.probe_code = ?")) {
+            preparedStatement.setInt(1, probe.getCod());
+            try (ResultSet resultSet = preparedStatement.executeQuery()) {
+                ParticipantDBRepo.getInfo(participantList, resultSet);
+            } catch (SQLException e) {
+                logger.error("ProbeDB error: " + e.toString());
+            }
+        } catch (SQLException e) {
+            logger.error("--ProbeDB prepare statement error: " + e.toString());
+        }
+        return participantList;
     }
 }

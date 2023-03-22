@@ -59,7 +59,7 @@ public class Main {
 //        } catch (Exception e) {
 //            System.out.println(e.getMessage());
 //        }
-//
+////
 //        try {
 //            testRegDB(props);
 //        } catch (Exception e) {
@@ -120,23 +120,23 @@ public class Main {
     private static void testParticipantDB(Properties props) throws SQLException {
         System.out.println("test participants");
         ParticipantDBRepo participantDBRepo = new ParticipantDBRepo(props);
-        List<Participant> participantList = participantDBRepo.getAll();
-        System.out.println("participants: " + participantList.size());
+        List<Participant> participantList = participantDBRepo.findByTeam(new Team(164, ""));
+        System.out.println("participants for 164: " + participantList.size());
         for (Participant participant : participantList) {
             System.out.println(participant.getCode() + " " +
                     participant.getName() + " " +
                     participant.getTeamCode() + " " +
                     participant.getCapacity());
         }
-        Participant newPart = new Participant(LocalTime.now().getSecond(), "666", 150, 66);
-        participantDBRepo.add(newPart);
-        Participant toDel = new Participant(99, "notHere", 150, 100);
-        participantDBRepo.add(toDel);
-        participantDBRepo.remove(toDel);
-        newPart.setTeamCode(179);
-        newPart.setName("new name");
-        newPart.setCapacity(88);
-        participantDBRepo.modify(newPart);
+//        Participant newPart = new Participant(LocalTime.now().getSecond(), "666", 150, 66);
+//        participantDBRepo.add(newPart);
+//        Participant toDel = new Participant(99, "notHere", 150, 100);
+//        participantDBRepo.add(toDel);
+//        participantDBRepo.remove(toDel);
+//        newPart.setTeamCode(179);
+//        newPart.setName("new name");
+//        newPart.setCapacity(88);
+//        participantDBRepo.modify(newPart);
     }
 
     private static void testProbeDB(Properties props) throws SQLException {
@@ -144,8 +144,14 @@ public class Main {
         ProbesDBRepo probesRepo = new ProbesDBRepo(props);
         List<Probe> probes = probesRepo.getAll();
         System.out.println("probes: " + probes.size());
+
+        List<Participant> participants = probesRepo.getParticipants(new Probe(11, "a"));
+
         for (Probe probe : probes)
             System.out.println(probe.getCod().toString() + " " + probe.getName());
+
+        for(Participant participant : participants)
+            System.out.println(participant.getCode().toString()  + " " + participant.getName());
 
         Probe newProbe = new Probe(LocalTime.now().getSecond(), LocalTime.now().toString());
         probesRepo.add(newProbe);

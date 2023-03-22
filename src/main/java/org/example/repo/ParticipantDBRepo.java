@@ -20,29 +20,19 @@ public class ParticipantDBRepo implements ParticipantRepo {
     private final Logger logger = LogManager.getLogger();
     private final JdbcUtils dbUtils;
 
-    public ParticipantDBRepo(Properties properties){
+    public ParticipantDBRepo(Properties properties) {
         logger.info("creating Participant Repo");
         dbUtils = new JdbcUtils(properties);
     }
 
     @Override
     public List<Participant> getAll() throws SQLException {
-        logger.info("getting teams from DB");
+        logger.info("getting partocopants from DB");
         Connection connection = dbUtils.getConnection();
         List<Participant> participants = new ArrayList<>();
         try (PreparedStatement preparedStatement = connection.prepareStatement(
                 "select * from participants")) {
-            try (ResultSet resultSet = preparedStatement.executeQuery()) {
-                while (resultSet.next()) {
-                    Integer code = resultSet.getInt("code");
-                    String name = resultSet.getString("name");
-                    Integer teamCode = resultSet.getInt("team_code");
-                    Integer capacity = resultSet.getInt("capacity");
-                    participants.add(new Participant(code, name, teamCode, capacity));
-                }
-            } catch (SQLException e) {
-                logger.error("ParticipantDB error: " + e.toString());
-            }
+            getParticipantInfo(participants, preparedStatement);
         }
         return participants;
     }
@@ -103,16 +93,46 @@ public class ParticipantDBRepo implements ParticipantRepo {
     public Participant search(Participant obj) {
         logger.info("searching for participant " + obj.getCode().toString());
         try {
-            for(Participant participant : getAll()){
-                if(participant.equals(obj)) {
+            for (Participant participant : getAll()) {
+                if (participant.equals(obj)) {
                     logger.info("--participant found");
                     return participant;
                 }
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             logger.error("--ParticipantDB prepare statement error: " + e.getMessage());
         }
         logger.info("--Participant not found");
         return null;
+    }
+
+    public List<Participant> findByTeam(Team team) throws SQLException {
+        logger.info("getting participants by team");
+        Connection connection = dbUtils.getConnection();
+        List<Participant> participants = new ArrayList<>();
+        try (PreparedStatement preparedStatement = connection.prepareStatement(
+                "select * from participants where team_code = ?")) {
+            preparedStatement.setInt(1, team.getCode());
+            getParticipantInfo(participants, preparedStatement);
+        }
+        return participants;
+    }
+
+    private void getParticipantInfo(List<Participant> participants, PreparedStatement preparedStatement) {
+        try (ResultSet resultSet = preparedStatement.executeQuery()) {
+            getInfo(participants, resultSet);
+        } catch (SQLException e) {
+            logger.error("ParticipantDB error: " + e.toString());
+        }
+    }
+
+    static void getInfo(List<Participant> participants, ResultSet resultSet) throws SQLException {
+        while (resultSet.next()) {
+            Integer code = resultSet.getInt("code");
+            String name = resultSet.getString("name");
+            Integer teamCode = resultSet.getInt("team_code");
+            Integer capacity = resultSet.getInt("capacity");
+            participants.add(new Participant(code, name, teamCode, capacity));
+        }
     }
 }
