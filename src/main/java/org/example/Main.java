@@ -1,5 +1,7 @@
 package org.example;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.example.entity.*;
 import org.example.repo.*;
 
@@ -11,19 +13,24 @@ import java.util.List;
 import java.util.Properties;
 
 public class Main {
+
+    private final static Logger log= LogManager.getLogger();
+
     public static void main(String[] args) {
 
+        log.debug("test debug");
         Properties props = new Properties();
         try {
+            log.error("test - this is not an error!");
             props.load(new FileReader("bd.config"));
         } catch (IOException e) {
-            System.out.println("Cannot find bd.config " + e);
+            log.error("Cannot find bd.config " + e);
         }
 
         //app here
 
         tests(props);
-
+        log.error("test - this is not an error!");
     }
 
     private static void tests(Properties props) {
@@ -38,19 +45,19 @@ public class Main {
 //        } catch (Exception e) {
 //            System.out.println(e.getMessage());
 //        }
-
+//
 //        try {
 //            testParticipantDB(props);
 //        } catch (Exception e) {
 //            System.out.println(e.getMessage());
 //        }
-
+//
 //        try {
 //            testProbeDB(props);
 //        } catch (Exception e) {
 //            System.out.println(e.getMessage());
 //        }
-
+//
 //        try {
 //            testRegDB(props);
 //        } catch (Exception e) {
