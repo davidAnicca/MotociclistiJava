@@ -2,6 +2,7 @@ package org.example.repo;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.example.entity.Participant;
 import org.example.entity.Team;
 import org.example.entity.User;
 import org.example.repo.generic.TeamsRepo;
@@ -103,5 +104,15 @@ public class TeamsDBRepo implements TeamsRepo {
         }
         logger.info("--team not found");
         return null;
+    }
+
+    public Team findByName(String teamName) throws SQLException {
+        List<Team> teams = getAll();
+        for(Team team : teams){
+            if(teamName.equals(team.getName())){
+                return team;
+            }
+        }
+        return teams.get(0);
     }
 }

@@ -135,4 +135,12 @@ public class ParticipantDBRepo implements ParticipantRepo {
             participants.add(new Participant(code, name, teamCode, capacity));
         }
     }
+
+    public Integer maxCode(int maxCode) throws SQLException {
+        for (Participant participant : getAll()) {
+            if (maxCode < participant.getCode())
+                maxCode = participant.getCode();
+        }
+        return maxCode;
+    }
 }
