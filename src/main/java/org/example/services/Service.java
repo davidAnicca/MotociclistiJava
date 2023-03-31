@@ -60,6 +60,6 @@ public class Service {
         participantRepo.add(new Participant(participantCode,
                 name,
                 teamCode,
-                Integer.getInteger(capacity)));
+                Integer.parseInt(capacity)));
     }
 }

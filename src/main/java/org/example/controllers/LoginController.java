@@ -42,9 +42,8 @@ public class LoginController {
             stage.setTitle("Concurs de motociclism");
             stage.setResizable(false);
             controller.setService(service);
-
-            //Stage currentStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-            //currentStage.close();
+            Stage currentStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            currentStage.close();
         } else {
             userNameText.setText("");
             passwdText.setText("");
