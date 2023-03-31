@@ -1,0 +1,10 @@
+VBox, HBox{
+    -fx-start-margin: 10px;
+    -fx-end-margin: 10px;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+Label{
+    -fx-padding: 10px;
+}
