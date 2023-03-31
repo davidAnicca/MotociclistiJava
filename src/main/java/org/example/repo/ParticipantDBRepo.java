@@ -107,12 +107,14 @@ public class ParticipantDBRepo implements ParticipantRepo {
     }
 
     public List<Participant> findByTeam(Team team) throws SQLException {
-        logger.info("getting participants by team");
+        logger.info("getting participants by team name");
         Connection connection = dbUtils.getConnection();
         List<Participant> participants = new ArrayList<>();
         try (PreparedStatement preparedStatement = connection.prepareStatement(
-                "select * from participants where team_code = ?")) {
-            preparedStatement.setInt(1, team.getCode());
+                "select * from participants p inner join " +
+                        "teams t on t.code = p.team_code " +
+                        "where t.name = ?")) {
+            preparedStatement.setString(1, team.getName());
             getParticipantInfo(participants, preparedStatement);
         }
         return participants;

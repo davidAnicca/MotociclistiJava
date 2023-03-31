@@ -100,7 +100,7 @@ public class TeamsDBRepo implements TeamsRepo {
                 }
             }
         }catch (Exception e){
-            logger.error("--UserDB prepare statement error: " + e.getMessage());
+            logger.error("--TeamDB prepare statement error: " + e.getMessage());
         }
         logger.info("--team not found");
         return null;

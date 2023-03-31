@@ -1,5 +1,6 @@
 package org.example.services;
 
+import org.apache.logging.log4j.LogManager;
 import org.example.entity.Participant;
 import org.example.entity.Probe;
 import org.example.entity.Team;

@@ -235,3 +235,536 @@
 30 Mar 2023 18:58:05,331 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
 30 Mar 2023 18:58:05,332 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
 30 Mar 2023 18:58:05,538 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 09:37:02,047 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 09:37:02,063 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 09:37:02,065 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 09:37:02,165 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 09:37:04,060 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 09:37:04,065 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 09:37:04,068 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 09:37:04,071 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 09:37:04,075 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 09:37:10,157 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 09:37:10,157 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 09:37:10,803 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 09:37:11,027 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 09:37:11,034 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 09:51:12,194 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 09:51:12,217 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 09:51:12,222 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 09:51:12,282 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 09:51:13,264 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 09:51:13,268 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 09:51:13,273 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 09:51:13,278 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 09:51:13,282 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 09:51:17,274 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 09:51:17,274 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 09:51:18,012 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 09:51:18,208 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 09:51:18,212 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 09:52:24,355 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 09:52:24,359 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 09:52:24,361 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 09:52:24,381 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 09:52:25,422 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 09:52:25,425 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 09:52:25,428 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 09:52:25,435 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 09:52:25,449 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 09:52:28,012 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 09:52:28,013 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 09:52:28,253 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 09:52:28,391 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 09:52:28,395 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 09:54:06,623 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 09:54:06,632 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 09:54:06,634 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 09:54:06,684 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 09:54:07,616 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 09:54:07,620 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 09:54:07,624 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 09:54:07,627 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 09:54:07,639 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 09:54:10,674 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 09:54:10,675 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 09:54:10,898 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 09:54:11,048 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 09:54:11,052 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 09:55:36,732 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 09:55:36,744 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 09:55:36,746 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 09:55:36,798 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 09:55:38,015 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 09:55:38,023 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 09:55:38,027 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 09:55:38,038 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 09:55:38,044 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 09:55:40,320 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 09:55:40,321 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 09:55:40,580 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 09:55:40,765 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 09:55:40,769 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 09:55:40,774 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 09:55:40,778 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 09:55:40,779 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 09:55:40,780 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 09:59:44,791 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 09:59:44,796 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 09:59:44,801 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 09:59:44,823 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 09:59:45,879 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 09:59:45,885 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 09:59:45,889 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 09:59:45,892 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 09:59:45,901 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 09:59:48,601 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 09:59:48,601 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 09:59:48,891 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 09:59:49,033 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 09:59:49,040 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 09:59:49,046 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 09:59:49,049 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 09:59:49,050 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 09:59:49,052 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:14:08,550 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:14:08,563 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:14:08,566 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:14:08,612 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:14:09,805 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:14:09,811 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:14:09,815 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:14:09,818 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:14:09,822 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:14:12,701 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:14:12,702 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:14:12,962 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:14:13,131 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:14:13,136 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:14:13,141 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:14:13,142 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:14:13,144 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:14:13,148 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:15:57,264 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:15:57,272 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:15:57,273 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:15:57,308 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:15:58,164 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:15:58,168 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:15:58,173 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:15:58,176 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:15:58,180 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:16:01,011 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:16:01,011 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:16:01,254 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:16:01,498 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:16:01,502 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:16:01,506 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:16:01,507 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:16:01,509 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:16:01,510 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:16:14,328 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:16:14,332 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:16:14,335 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:16:14,361 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:16:15,229 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:16:15,232 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:16:15,237 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:16:15,239 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:16:15,243 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:16:17,745 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:16:17,747 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:16:17,967 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:16:18,240 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:16:18,245 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:16:18,248 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:16:18,249 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:16:18,250 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:16:18,252 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:17:18,692 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:17:18,702 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:17:18,704 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:17:18,747 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:17:19,646 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:17:19,650 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:17:19,652 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:17:19,655 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:17:19,666 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:17:22,146 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:17:22,147 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:17:22,369 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:17:22,617 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:17:22,622 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:17:22,628 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:17:22,631 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:17:22,633 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:17:22,634 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:18:30,730 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:18:30,735 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:18:30,737 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:18:30,758 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:18:31,849 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:18:31,853 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:18:31,857 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:18:31,859 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:18:31,862 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:18:36,820 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:18:36,820 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:18:37,093 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:18:37,289 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:18:37,293 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:18:37,296 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:18:37,298 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:18:37,299 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:18:37,300 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:19:20,232 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:19:20,247 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:19:20,251 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:19:20,275 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:19:21,117 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:19:21,122 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:19:21,125 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:19:21,128 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:19:21,131 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:19:24,508 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:19:24,508 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:19:24,805 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:19:25,059 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:19:25,066 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:19:25,070 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:19:25,072 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:19:25,073 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:19:25,074 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:20:26,931 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:20:26,939 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:20:26,941 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:20:26,989 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:20:27,881 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:20:27,887 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:20:27,892 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:20:27,897 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:20:27,900 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:20:29,966 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:20:29,967 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:20:30,225 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:20:30,449 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:20:30,454 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:20:30,456 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:20:30,459 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:20:30,462 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:20:30,463 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:21:53,572 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:21:53,578 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:21:53,579 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:21:53,598 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:21:54,654 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:21:54,658 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:21:54,660 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:21:54,666 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:21:54,668 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:21:57,273 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:21:57,274 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:21:57,533 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:21:57,757 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:21:57,762 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:21:57,768 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:21:57,770 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:21:57,771 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:21:57,773 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:22:41,458 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:22:41,464 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:22:41,466 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:22:41,488 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:22:42,413 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:22:42,417 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:22:42,420 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:22:42,422 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:22:42,428 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:22:44,775 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:22:44,775 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:22:45,021 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:22:45,246 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:22:45,250 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:22:45,253 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:22:45,254 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:22:45,256 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:22:45,257 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:23:06,011 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:23:06,019 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:23:06,022 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:23:06,063 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:23:06,873 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:23:06,880 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:23:06,883 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:23:06,885 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:23:06,892 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:23:09,367 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:23:09,368 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:23:09,664 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:23:09,903 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:23:09,912 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:23:09,915 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:23:09,916 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:23:09,917 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:23:09,918 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:23:54,148 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:23:54,153 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:23:54,154 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:23:54,186 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:23:55,153 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:23:55,157 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:23:55,160 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:23:55,163 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:23:55,166 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:24:01,406 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:24:01,407 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:24:01,639 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:24:01,886 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:24:01,890 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:24:01,893 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:24:01,894 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:24:01,896 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:24:01,897 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:24:32,425 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:24:32,434 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:24:32,436 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:24:32,466 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:24:33,406 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:24:33,408 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:24:33,411 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:24:33,415 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:24:33,434 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:24:35,990 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:24:35,990 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:24:36,264 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:24:36,444 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:24:36,451 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:24:36,453 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:24:36,455 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:24:36,456 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:24:36,457 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:24:53,803 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:24:53,811 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:24:53,813 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:24:53,844 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:24:54,859 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:24:54,863 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:24:54,867 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:24:54,871 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:24:54,874 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:24:57,214 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:24:57,215 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:24:57,485 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:24:57,691 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:24:57,696 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:24:57,701 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:24:57,702 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:24:57,704 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:24:57,707 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:25:38,603 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:25:38,609 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:25:38,610 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:25:38,630 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:25:39,459 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:25:39,462 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:25:39,464 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:25:39,467 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:25:39,470 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:25:41,711 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:25:41,711 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:25:41,952 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:25:42,180 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:25:42,184 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:25:42,188 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:25:42,190 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:25:42,192 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:25:42,193 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:26:15,598 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:26:15,603 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:26:15,605 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:26:15,624 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:26:16,471 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:26:16,473 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:26:16,476 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:26:16,478 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:26:16,488 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:26:19,186 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:26:19,187 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:26:19,439 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:26:19,647 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:26:19,652 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:26:19,658 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:26:19,660 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:26:19,661 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:26:19,662 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:26:44,401 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:26:44,407 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:26:44,409 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:26:44,427 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:26:45,304 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:26:45,307 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:26:45,309 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:26:45,313 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:26:45,319 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:26:47,860 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:26:47,861 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:26:48,110 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:26:48,328 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:26:48,334 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:26:48,340 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:26:48,341 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:26:48,343 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:26:48,344 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:27:30,448 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:27:30,455 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:27:30,457 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:27:30,488 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:27:31,340 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:27:31,345 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:27:31,348 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:27:31,351 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:27:31,357 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:27:33,470 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:27:33,471 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:27:33,726 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:27:33,969 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:27:33,973 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:27:33,978 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:27:33,980 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:27:33,981 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:27:33,982 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:28:22,496 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:28:22,501 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:28:22,503 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:28:22,533 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:28:23,312 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:28:23,316 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:28:23,319 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:28:23,322 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:28:23,326 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:28:25,670 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:28:25,671 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:28:25,947 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:28:26,207 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:28:26,212 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:28:26,217 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:28:26,220 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:28:26,222 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:28:26,224 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:30:21,168 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:30:21,176 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:30:21,178 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:30:21,220 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:30:22,169 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:30:22,172 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:30:22,176 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:30:22,179 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:30:22,183 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:30:26,042 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:30:26,043 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:30:26,420 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:30:26,693 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:30:26,699 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:30:26,701 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:30:26,703 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:30:26,704 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:30:26,705 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:35:18,854 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:35:18,864 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:35:18,866 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:35:18,920 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:35:19,844 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:35:19,848 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:35:19,851 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:35:19,854 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:35:19,861 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:35:25,883 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:35:25,884 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:35:26,186 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:35:26,428 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:35:26,433 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:35:26,435 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:35:26,437 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:35:26,441 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:35:26,443 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:35:32,340 INFO  org.example.repo.ParticipantDBRepo 110 findByTeam - getting participants by team name
+31 Mar 2023 10:35:44,189 INFO  org.example.repo.ParticipantDBRepo 110 findByTeam - getting participants by team name
+31 Mar 2023 10:36:44,976 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:36:44,984 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:36:44,987 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:36:45,030 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:36:45,983 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:36:45,991 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:36:45,993 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:36:46,004 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:36:46,011 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:36:48,680 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:36:48,681 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:36:48,918 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:36:49,201 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:36:49,208 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:36:49,210 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:36:49,212 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:36:49,214 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:36:49,218 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:36:51,467 INFO  org.example.repo.ParticipantDBRepo 110 findByTeam - getting participants by team name
+31 Mar 2023 10:36:52,439 INFO  org.example.repo.ParticipantDBRepo 110 findByTeam - getting participants by team name
+31 Mar 2023 10:36:53,464 INFO  org.example.repo.ParticipantDBRepo 110 findByTeam - getting participants by team name
+31 Mar 2023 10:36:54,152 INFO  org.example.repo.ParticipantDBRepo 110 findByTeam - getting participants by team name
+31 Mar 2023 10:37:46,319 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:37:46,330 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:37:46,333 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:37:46,380 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:37:47,464 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:37:47,471 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:37:47,475 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:37:47,478 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:37:47,482 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:37:50,494 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:37:50,495 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:37:50,743 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:37:50,992 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:37:50,996 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:37:50,998 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:37:51,001 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:37:51,002 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:37:51,003 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:37:54,620 INFO  org.example.repo.ParticipantDBRepo 110 findByTeam - getting participants by team name
+31 Mar 2023 10:38:15,945 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:38:15,949 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:38:15,950 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:38:15,971 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:38:16,902 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:38:16,909 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:38:16,912 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:38:16,915 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:38:16,918 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:38:22,050 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:38:22,051 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:38:22,315 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:38:22,541 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:38:22,546 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:38:22,548 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:38:22,550 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:38:22,551 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:38:22,555 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:38:29,030 INFO  org.example.repo.ParticipantDBRepo 110 findByTeam - getting participants by team name
+31 Mar 2023 10:39:02,757 DEBUG org.example.Main 25 main - test debug
+31 Mar 2023 10:39:02,764 ERROR org.example.Main 29 main - test - this is not an error!
+31 Mar 2023 10:39:02,768 ERROR org.example.Main 34 main - test - this is not an error!
+31 Mar 2023 10:39:02,792 DEBUG org.example.Main 41 start - Start JavaFX
+31 Mar 2023 10:39:03,656 INFO  org.example.repo.UserDBRepo 21 <init> - creating UserDBRepo
+31 Mar 2023 10:39:03,659 INFO  org.example.repo.ProbesDBRepo 25 <init> - create probes repo
+31 Mar 2023 10:39:03,662 INFO  org.example.repo.TeamsDBRepo 24 <init> - creating TeamRepo
+31 Mar 2023 10:39:03,670 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+31 Mar 2023 10:39:03,673 DEBUG org.example.Main 52 start - End Start JavaFX
+31 Mar 2023 10:39:05,859 INFO  org.example.repo.UserDBRepo 94 search - searching for user a
+31 Mar 2023 10:39:05,860 INFO  org.example.repo.UserDBRepo 27 getAll - getting users from DB
+31 Mar 2023 10:39:06,112 INFO  org.example.repo.UserDBRepo 98 search - --user found
+31 Mar 2023 10:39:06,377 INFO  org.example.repo.ProbesDBRepo 31 getAll - getting probes from DB
+31 Mar 2023 10:39:06,383 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:39:06,386 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:39:06,388 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:39:06,389 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:39:06,390 INFO  org.example.repo.ProbesDBRepo 111 getParticipants - getting all participants
+31 Mar 2023 10:39:10,570 INFO  org.example.repo.ParticipantDBRepo 110 findByTeam - getting participants by team name

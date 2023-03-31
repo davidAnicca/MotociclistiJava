@@ -112,9 +112,7 @@ public class ProbesDBRepo implements ProbesRepo {
         List<Participant> participantList = new ArrayList<>();
         Connection connection = dbUtils.getConnection();
         try (PreparedStatement preparedStatement = connection.prepareStatement(
-                "select * from participants ps " +
-                        "inner join registrations r on ps.code = r.participant_code " +
-                        "where r.probe_code = ?")) {
+                "select * from participants where capacity = ?")) {
             preparedStatement.setInt(1, probe.getCod());
             try (ResultSet resultSet = preparedStatement.executeQuery()) {
                 ParticipantDBRepo.getInfo(participantList, resultSet);

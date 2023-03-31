@@ -13,6 +13,7 @@ import org.example.Main;
 import org.example.services.Service;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 public class LoginController {
 
@@ -27,7 +28,7 @@ public class LoginController {
         this.service = service;
     }
 
-    public void loginPressed(ActionEvent event) throws IOException {
+    public void loginPressed(ActionEvent event) throws IOException, SQLException {
         String userName = userNameText.getText();
         String passwd = passwdText.getText();
         if (service.checkUser(userName, passwd)) {
@@ -38,12 +39,12 @@ public class LoginController {
             stage.setScene(scene);
             stage.show();
             MainController controller = (MainController) loader.getController();
-            controller.setService(service);
             stage.setTitle("Concurs de motociclism");
             stage.setResizable(false);
+            controller.setService(service);
 
-            Stage currentStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-            currentStage.close();
+            //Stage currentStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            //currentStage.close();
         } else {
             userNameText.setText("");
             passwdText.setText("");
