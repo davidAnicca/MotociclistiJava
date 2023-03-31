@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controllers.MainController"
+            stylesheets="style.css">
+    <HBox layoutX="20.0" layoutY="22.0" prefHeight="354.0" prefWidth="560.0">
+        <VBox>
+            <Label text="Curse"/>
+            <ListView fx:id="probesList"/>
+        </VBox>
+        <VBox>
+            <Label text="Caută după echipă"/>
+            <HBox>
+                <TextField fx:id="teamNameText"/>
+                <Button fx:id="searchByTeamBtn" onAction="#searchByTeam" text="Caută" style="margin: 10px"/>
+            </HBox>
+            <ListView fx:id="resultList"/>
+            <HBox>
+                <Button fx:id="addParticipantButton" onAction="#addParticipant" text="adaugă"/>
+            </HBox>
+        </VBox>
+    </HBox>
+</AnchorPane>
