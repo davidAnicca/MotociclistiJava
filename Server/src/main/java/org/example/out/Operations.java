@@ -70,7 +70,6 @@ public class Operations {
         } catch (IOException e) {
             Logger.error(e.getMessage());
         }
-
     }
 
     private void beginReceive(Client client) throws IOException {
@@ -124,7 +123,6 @@ public class Operations {
 
         var stopMessage = JsonNodeFactory.instance.objectNode();
         stopMessage.put("command", "stop");
-
         client.send(stopMessage.toString());
 
         var response = JsonNodeFactory.instance.objectNode();

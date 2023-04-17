@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="354.0" prefWidth="465.0" xmlns="http://javafx.com/javafx/11.0.14-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.controllers.LoginController">
+
+    <TextField fx:id="userNameText" layoutX="134.0" layoutY="104.0" prefHeight="26.0" prefWidth="197.0"/>
+    <Label layoutX="134.0" layoutY="86.0" text="Nume de utilizator"/>
+    <Label layoutX="134.0" layoutY="166.0" text="Parola"/>
+    <Button fx:id="logInBtn" layoutX="181.0" layoutY="242.0" mnemonicParsing="false" onAction="#loginPressed"
+            prefHeight="26.0" prefWidth="103.0" text="Autentificare"/>
+    <PasswordField fx:id="passwdText" layoutX="134.0" layoutY="184.0" prefHeight="26.0" prefWidth="198.0"/>
+</AnchorPane>

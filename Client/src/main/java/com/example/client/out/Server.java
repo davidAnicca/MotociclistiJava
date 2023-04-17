@@ -1,18 +1,16 @@
-package org.example.out;
+package com.example.client.out;
 
-import java.beans.Encoder;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
-import java.nio.charset.StandardCharsets;
 import java.util.Objects;
 
-public class Client {
+public class Server {
     private final Socket socket;
     private Boolean open;
 
-    public Client(Socket socket) {
+    public Server(Socket socket) {
         this.socket = socket;
         open = true;
     }
@@ -24,7 +22,7 @@ public class Client {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Client client)) return false;
+        if (!(o instanceof Server client)) return false;
         return Objects.equals(socket.getPort(), client.socket.getPort());
     }
 
@@ -56,5 +54,4 @@ public class Client {
         open = false;
         socket.close();
     }
-
 }
