@@ -52,7 +52,7 @@ public class Client {
         return new String(buffer, 0, bytesRead);
     }
 
-    public void Close() throws IOException {
+    public void close() throws IOException {
         open = false;
         socket.close();
     }

@@ -22,6 +22,8 @@ dependencies {
 
     implementation 'org.openjfx:javafx-controls:16'
     implementation 'org.openjfx:javafx-fxml:16'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.5'
+
 }
 
 application{
