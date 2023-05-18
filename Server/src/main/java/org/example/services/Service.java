@@ -61,4 +61,16 @@ public class Service {
                 teamCode,
                 Integer.parseInt(capacity)));
     }
+
+    public void addProbe(Probe probe) {
+        probeRepo.add(probe);
+    }
+
+    public void remove(int id) {
+        probeRepo.remove(new Probe(id, ""));
+    }
+
+    public void update(Probe updatedProbe) {
+        probeRepo.modify(updatedProbe);
+    }
 }

@@ -1,12 +1,20 @@
 package org.example.entity;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.Objects;
 
 public class Probe {
     private Integer cod;
     private String name;
 
-    public Probe(Integer cod, String name) {
+    public Probe() {
+        // Constructor implicit
+    }
+
+    @JsonCreator
+    public Probe(@JsonProperty("cod") Integer cod, @JsonProperty("name") String name) {
         this.cod = cod;
         this.name = name;
     }

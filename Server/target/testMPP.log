@@ -1325,3 +1325,72 @@
 17 Apr 2023 20:01:45,849 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
 17 Apr 2023 20:01:55,090 ERROR org.example.out.Operations 88 beginReceive - Connection reset
 17 Apr 2023 20:01:57,910 ERROR org.example.out.Operations 88 beginReceive - Connection reset
+24 Apr 2023 17:00:07,455 DEBUG org.example.Main 18 main - test debug
+24 Apr 2023 17:00:07,460 ERROR org.example.Main 21 main - test - this is not an error!
+24 Apr 2023 17:00:07,463 ERROR org.example.Main 26 main - test - this is not an error!
+24 Apr 2023 17:00:07,472 INFO  org.example.repo.UserDBRepo 23 <init> - creating UserDBRepo
+24 Apr 2023 17:00:07,478 INFO  org.example.repo.ProbesDBRepo 23 <init> - create probes repo
+24 Apr 2023 17:00:07,483 INFO  org.example.repo.TeamsDBRepo 22 <init> - creating TeamRepo
+24 Apr 2023 17:00:07,488 INFO  org.example.repo.ParticipantDBRepo 24 <init> - creating Participant Repo
+24 Apr 2023 17:00:07,497 INFO  org.example.out.Operations 44 acceptClient - Accepting clients...
+24 Apr 2023 17:00:44,002 INFO  org.example.out.Operations 49 acceptClient - Accept a client from ip /127.0.0.1:64676 port 64676
+24 Apr 2023 17:00:49,744 INFO  org.example.out.Operations 79 beginReceive - message from client: /127.0.0.1:64676
+-->>{"passwd":"a","userName":"a","command":"checkUser"}
+24 Apr 2023 17:00:50,069 INFO  org.example.repo.UserDBRepo 96 search - searching for user a
+24 Apr 2023 17:00:50,070 INFO  org.example.repo.UserDBRepo 29 getAll - getting users from DB
+24 Apr 2023 17:00:50,325 INFO  org.example.repo.UserDBRepo 100 search - --user found
+24 Apr 2023 17:00:50,596 INFO  org.example.out.Operations 79 beginReceive - message from client: /127.0.0.1:64676
+-->>{"command":"getProbes"}
+24 Apr 2023 17:00:50,597 INFO  org.example.repo.ProbesDBRepo 29 getAll - getting probes from DB
+24 Apr 2023 17:00:50,603 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:00:50,607 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:00:50,611 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:00:50,612 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:00:50,614 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:01:17,016 INFO  org.example.out.Operations 49 acceptClient - Accept a client from ip /127.0.0.1:64681 port 64681
+24 Apr 2023 17:01:19,551 INFO  org.example.out.Operations 79 beginReceive - message from client: /127.0.0.1:64681
+-->>{"passwd":"a","userName":"a","command":"checkUser"}
+24 Apr 2023 17:01:19,553 INFO  org.example.repo.UserDBRepo 96 search - searching for user a
+24 Apr 2023 17:01:19,554 INFO  org.example.repo.UserDBRepo 29 getAll - getting users from DB
+24 Apr 2023 17:01:19,554 INFO  org.example.repo.UserDBRepo 100 search - --user found
+24 Apr 2023 17:01:19,787 INFO  org.example.out.Operations 79 beginReceive - message from client: /127.0.0.1:64681
+-->>{"command":"getProbes"}
+24 Apr 2023 17:01:19,790 INFO  org.example.repo.ProbesDBRepo 29 getAll - getting probes from DB
+24 Apr 2023 17:01:19,791 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:01:19,792 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:01:19,794 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:01:19,796 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:01:19,797 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:01:27,048 INFO  org.example.out.Operations 79 beginReceive - message from client: /127.0.0.1:64676
+-->>{"command":"getTeams"}
+24 Apr 2023 17:01:27,054 INFO  org.example.repo.TeamsDBRepo 28 getAll - getting teams from DB
+24 Apr 2023 17:01:27,070 INFO  org.example.out.Operations 79 beginReceive - message from client: /127.0.0.1:64676
+-->>{"command":"getProbeNames"}
+24 Apr 2023 17:01:27,071 INFO  org.example.repo.ProbesDBRepo 29 getAll - getting probes from DB
+24 Apr 2023 17:01:36,507 INFO  org.example.out.Operations 79 beginReceive - message from client: /127.0.0.1:64676
+-->>{"name":"11w","team":"Suzuki","command":"addParticipant","capacity":"11"}
+24 Apr 2023 17:01:36,508 INFO  org.example.repo.ParticipantDBRepo 30 getAll - getting partocopants from DB
+24 Apr 2023 17:01:36,511 INFO  org.example.repo.TeamsDBRepo 28 getAll - getting teams from DB
+24 Apr 2023 17:01:36,512 INFO  org.example.repo.ParticipantDBRepo 42 add - adding new participant
+24 Apr 2023 17:01:36,524 INFO  org.example.repo.ParticipantDBRepo 55 add - participant added
+24 Apr 2023 17:01:36,525 INFO  org.example.out.Operations 134 treatAdd - Added new participant
+24 Apr 2023 17:01:36,736 INFO  org.example.out.Operations 149 broadcast - Sending notification to client 64676
+24 Apr 2023 17:01:36,739 INFO  org.example.out.Operations 149 broadcast - Sending notification to client 64681
+24 Apr 2023 17:01:36,745 INFO  org.example.out.Operations 79 beginReceive - message from client: /127.0.0.1:64676
+-->>{"command":"getProbes"}
+24 Apr 2023 17:01:36,747 INFO  org.example.repo.ProbesDBRepo 29 getAll - getting probes from DB
+24 Apr 2023 17:01:36,747 INFO  org.example.out.Operations 79 beginReceive - message from client: /127.0.0.1:64681
+-->>{"command":"getProbes"}
+24 Apr 2023 17:01:36,748 INFO  org.example.repo.ProbesDBRepo 29 getAll - getting probes from DB
+24 Apr 2023 17:01:36,750 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:01:36,754 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:01:36,754 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:01:36,756 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:01:36,756 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:01:36,757 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:01:36,759 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:01:36,759 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:01:36,764 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:01:36,766 INFO  org.example.repo.ProbesDBRepo 109 getParticipants - getting all participants
+24 Apr 2023 17:02:11,270 ERROR org.example.out.Operations 87 beginReceive - Connection reset
+24 Apr 2023 17:02:11,350 ERROR org.example.out.Operations 87 beginReceive - Connection reset
